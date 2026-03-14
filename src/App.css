@@ -75,6 +75,7 @@
   font-size: clamp(4rem, 12vw, 8rem);
   line-height: 0.9;
   margin-bottom: 2rem;
+  opacity: 0;
 }
 
 .subtitle {
@@ -90,13 +91,18 @@
   max-width: 500px;
   margin-bottom: 2.5rem;
   color: #555;
-  opacity: 0; /* Handled by animation */
+  opacity: 0;
+}
+
+.hero-cta {
+  opacity: 0;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
   filter: drop-shadow(0 30px 60px rgba(0, 51, 153, 0.2));
+  display: block;
 }
 
 /* Flavors Section style */
